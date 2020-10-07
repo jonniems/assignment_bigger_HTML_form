@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eighth HTML-page by Jonnie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+            <li><a href="#">Item 5</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Bigger HTML form by Jonnie Muis</h1>
+    </header>
+    <main>
+        <h2>About the form</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae doloremque numquam error saepe magni
+            accusantium earum quod soluta reprehenderit, illum exercitationem alias impedit incidunt expedita! Iure iste
+            nemo
+            eos et!</p>
+
+        <form name="recipes" method="POST" data-netlify="true">
+            <p>
+                <label for="name">Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label for="email">Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label for="phone">Phonenumber: <input type="tel" name="phone" /></label>
+            </p>
+            <p>
+                <label for="age">Age: <input type="number" name="age" min="1" max="99" /></label>
+            </p>
+            <p>
+                <label for="birthdate">Birthdate: <input type="date" name="birthdate" /></label>
+            </p>
+            <p>
+                Gender: <br>
+                <label for="male">Male:<input type="radio" name="gender" value="male"></label><br>
+                <label for="female">Female:<input type="radio" name="gender" value="female"></label>
+            </p>
+            <p>
+                Favourite Cuisine: <br>
+                <input type="checkbox" name="french" value="French">
+                <label for="french">French</label><br>
+                <input type="checkbox" name="italian" value="Italian">
+                <label for="italian">Italian</label><br>
+                <input type="checkbox" name="spanish" value="Spanish">
+                <label for="spanish">Spanish</label><br>
+                <input type="checkbox" name="arabic" value="Arabic">
+                <label for="arabic">Arabic</label>
+            </p>
+            <p>
+                <label for="color">Favourite Color Short: </label><input type="color" name="color">
+            </p>
+            <p>
+                <label for="biography">Biography: <br><textarea name="biiography"></textarea></label>
+            </p>
+            <p>
+                <label for="recipe">Upload your last recipe: <br><input type="file" name="myfile"></label>
+            </p>
+            <p>
+                <label for="website">Your recipes website:</label>
+                <input type="url" name="website">
+            </p>
+            <p>
+                <input type="reset" value="Reset">
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+
+    </main>
+    <footer>
+        <p class="link"><a href="#">This is a link to nowhere</a></p>
+    </footer>
+</body>
+
+</html>
